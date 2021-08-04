@@ -1,5 +1,5 @@
 <template>
-	<button @click="$emit('custom:click', 'clicked')">CLICK ME</button>
+	<button @click="$emit('custom:click', 'clicked')">CLICK (this === undefined)</button>
 </template>
 
 <script>
